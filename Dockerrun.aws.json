@@ -1,17 +1,12 @@
 {
   "AWSEBDockerrunVersion": 1,
-  "containerDefinitions": [
+  "Image": {
+    "Name": "gabriesb/meu-app:latest",
+    "Update": "true"
+  },
+  "Ports": [
     {
-      "name": "meu-app",
-      "image": "DOCKERHUB_USERNAME/meu-app:latest",
-      "essential": true,
-      "memory": 256,
-      "portMappings": [
-        {
-          "containerPort": 8080,
-          "hostPort": 8080
-        }
-      ]
+      "ContainerPort": "3000"
     }
   ]
 }
