@@ -1,0 +1,37 @@
+name: CI/CD Pipeline
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 📥 Checkout código
+        uses: actions/checkout@v3
+
+      - name: 🐳 Login no DockerHub
+        uses: docker/login-action@v2
+        with:
+          username: ${{ secrets.DOCKERHUB_USERNAME }}
+          password: ${{ secrets.DOCKERHUB_TOKEN }}
+
+      - name: 📦 Build imagem Docker
+        run: docker build -t ${{ secrets.DOCKERHUB_USERNAME }}/meu-app:latest .
+
+      - name: 🚀 Push para DockerHub
+        run: docker push ${{ secrets.DOCKERHUB_USERNAME }}/meu-app:latest
+
+      - name: 🚀 Deploy no Elastic Beanstalk
+        uses: einaregilsson/beanstalk-deploy@v21
+        with:
+          aws_access_key: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          aws_secret_key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          application_name: "meu-app-devops"
+          environment_name: "meu-app-env"
+          version_label: ${{ github.sha }}
+          region: "us-east-1"
+          deployment_package: "Dockerrun.aws.json"
