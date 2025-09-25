@@ -1,11 +1,11 @@
-#🚀 Deploy Seguro em Containers com DevOps
+# 🚀 Deploy Seguro em Containers com DevOps
 
 Este projeto demonstra como realizar o **deploy seguro e automatizado** de uma aplicação Node.js em containers utilizando **Docker**, **GitHub Actions** e **AWS Elastic Beanstalk**.  
 A ideia é mostrar, na prática, como aplicar boas práticas de **CI/CD (Integração Contínua e Entrega Contínua)**, garantindo escalabilidade, reprodutibilidade e segurança no fluxo de deploy.
 
 ---
 
-##📌 Objetivo do Projeto
+## 📌 Objetivo do Projeto
 
 O projeto foi desenvolvido para resolver um problema comum em equipes de desenvolvimento:
 
@@ -16,7 +16,7 @@ Aqui, mostramos como configurar uma pipeline que **empacota, testa e entrega** s
 
 ---
 
-##🛠️ Tecnologias Utilizadas
+## 🛠️ Tecnologias Utilizadas
 
 - **Node.js + Express** → Back-end simples para exemplificar a aplicação.  
 - **Docker** → Criação da imagem containerizada, garantindo que o app rode de forma idêntica em qualquer ambiente.  
@@ -45,7 +45,7 @@ Fluxo final: **Commit → Build → Deploy Automático → App rodando em produ�
 
 ---
 
-##📂 Estrutura do Repositório
+## 📂 Estrutura do Repositório
 
 ├── app/ # Código fonte da aplicação Node.js
 │ └── index.js # Servidor Express simples
@@ -55,9 +55,6 @@ Fluxo final: **Commit → Build → Deploy Automático → App rodando em produ�
 ├── docker-compose.yml # Configuração local (opcional)
 ├── package.json # Dependências do Node.js
 └── README.md # Documentação do projeto
-
-yaml
-Copiar código
 
 ---
 
@@ -89,6 +86,8 @@ Deployada no Elastic Beanstalk.
 
 Aplicação disponível em um domínio público do Beanstalk:
 
+arduino
+Copiar código
 http://meu-app-env.eba-xxxxxxx.us-east-1.elasticbeanstalk.com
 📸 Screenshots do Projeto
 📌 1. Pipeline no GitHub Actions rodando com sucesso
