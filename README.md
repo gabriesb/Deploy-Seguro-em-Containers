@@ -134,3 +134,4 @@ Tudo isso reduzindo o risco de erro humano e acelerando o ciclo de entrega de so
 
 👨‍💻 Autor: Gabriel Silveira
 🔗 GitHub: @gabriesb
+🔗 LinkedIn: https://www.linkedin.com/in/gabriel-silveira-05201031b/
