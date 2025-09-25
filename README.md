@@ -90,6 +90,7 @@ http://meu-app-env.eba-xxxxxxx.us-east-1.elasticbeanstalk.com
 
 
 📸 Screenshots do Projeto
+
 📌 1. Pipeline no GitHub Actions rodando com sucesso
 
 <img width="1920" height="938" alt="Captura de Tela (422)" src="https://github.com/user-attachments/assets/9fa5f1ff-a4a7-4868-b83a-e266cffac4a5" />
