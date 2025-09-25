@@ -12,7 +12,7 @@ O projeto foi desenvolvido para resolver um problema comum em equipes de desenvo
 > **"Como garantir que meu código chegue em produção de forma rápida, automatizada e sem erros manuais?"**
 
 Muitas vezes o processo de deploy manual gera falhas, inconsistências entre ambientes e retrabalho.  
-Aqui, mostramos como configurar uma pipeline que **empacota, testa e entrega** sua aplicação em produção com poucos cliques.
+Aqui, mostro como configurar uma pipeline que **empacota, testa e entrega** sua aplicação em produção com poucos cliques.
 
 ---
 
