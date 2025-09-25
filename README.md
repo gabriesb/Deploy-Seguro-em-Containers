@@ -89,6 +89,8 @@ Aplicação disponível em um domínio público do Beanstalk:
 http://meu-app-env.eba-xxxxxxx.us-east-1.elasticbeanstalk.com
 
 
+
+
 📸 Screenshots do Projeto
 
 📌 1. Pipeline no GitHub Actions rodando com sucesso
