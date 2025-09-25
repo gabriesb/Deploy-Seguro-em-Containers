@@ -92,11 +92,12 @@ http://meu-app-env.eba-xxxxxxx.us-east-1.elasticbeanstalk.com
 📸 Screenshots do Projeto
 📌 1. Pipeline no GitHub Actions rodando com sucesso
 
+<img width="1920" height="938" alt="Captura de Tela (422)" src="https://github.com/user-attachments/assets/9fa5f1ff-a4a7-4868-b83a-e266cffac4a5" />
 
 
 📌 2. Elastic Beanstalk – Ambiente saudável (Health Green)
 
-<img width="1920" height="938" alt="Captura de Tela (422)" src="https://github.com/user-attachments/assets/9fa5f1ff-a4a7-4868-b83a-e266cffac4a5" />
+<img width="1561" height="476" alt="Captura de Tela (428)" src="https://github.com/user-attachments/assets/f9525aaa-5869-498d-9adc-21f7d26946bc" />
 
 
 📌 3. Aplicação rodando no navegador
